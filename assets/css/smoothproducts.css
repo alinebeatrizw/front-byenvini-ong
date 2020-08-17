@@ -1,0 +1,953 @@
+  .ul-nav,.ul-nav2{list-style-type: none;display: inline-block;}
+  #imagem-lupa{width: 35px;height: 35px;}
+  .input-pesquisar input{border: none;border-bottom: 2px solid #5771FA;width: 170px;background-color: rgba(255, 255, 255, 0.93); margin-top: 40px;}
+  .botao-doacoes button{color: #5771FA;font-family: Montserrat;font-size: 20px;font-weight: 400;line-height: 26px; text-align: center;}
+  .botao-doacoes img{width: 30px; height: 30px;}
+  #fundo-todo{background-image:url(assets/img/fundo.jpg);height:771px;background-position:center;background-size:cover; margin-top: -100px;}
+  .card-group,.card,.card-body{border: none;}
+  #card-index-quem-somos{background-color: rgba(36, 0, 255, 0.9);height: 196px;}
+  #card-index-titulo{color: #FFFFFF;font-family: Montserrat;font-size: 20px;font-weight: 700;line-height: 26px;text-align: center;}
+  #img-people,#img-mala,#img-livro,#img-maoscoracao{width: 64px;height: 64px;}
+  #card-index-vagas{background-color: rgba(245, 141, 0, 0.95);height: 196px;}
+  #card-index-cursos{background-color: rgba(19, 206, 102, 0.95);height: 196px;}
+  #card-index-projetos{background-color: rgba(252, 255, 15, 0.88);height: 196px;}
+  .triangle-deco{ margin-top: 60px;}
+  #img-corona,#img-ajuda,#img-independencia{width: 334px; height: 187.88px;margin-left: 8px;margin-top: 13px;}
+  #titulo-slide{ color: #343F4B;font-family: Montserrat;font-size: 20px; font-weight: bold;}
+  #data-slide{margin-top: -18px;  color: #969FAA;font-family: Montserrat;font-size: 14px;}
+  #desc-slide{color: #5A6978;font-family: Montserrat;font-size: 14px;line-height: 18px;margin-top: -25px;}
+  footer{margin-bottom: -101px; text-align: center;}
+  #botao-contato{  color: #5771FA;font-family: Montserrat;font-size: 18px;font-weight: 400;line-height: 23px;   background-color: rgba(19, 206, 102, 0);border: 3px solid #5771FA;width: 125px;height: 40px;}
+  .lista-footer{list-style-type: none;text-align: center;}
+  .lista-footer li{color: #FFFFFF;font-family: Montserrat;font-size: 16px;font-weight: 400;}
+  #img-local,#img-mail,#img-fone{width: 20px;height: 20px;}
+  #img-insta,#img-face{width: 34px;height: 34px;}
+  #footeer {background-color: #343F4B; text-align: center; margin: 0px; padding:10px}
+  #footeer p {color: #FFFFFF;font-size: 16px; font-weight: 400; line-height: 20px;font-family: Montserrat}
+  #img-invencao{width: 72px;height: 72px;}
+  #img-copy{width: 20px;height: 20px;}
+  #link-linkedin{ color: #FFFFFF;font-family: Montserrat;font-size: 16px;font-weight: 400;line-height: 20px;text-align: left;text-decoration: underline;}
+
+
+#navbar{background-color: #5771FA; }
+#select-link{background-color: #2D48DB; font-family: Montserrat;font-size: 16px;font-weight: 700;line-height: 20px;}
+a.nav-link img{width: 24px;height: 24px;  color: #FFFFFF;}
+.nav-link{font-family: Montserrat;font-size: 16px;font-weight: 700;line-height: 20px;}
+.vertical-nav{margin-left: -15px;}
+.vnav-li img{width: 60px;height: 56px;}
+li#bandeira{margin-top: -50px;border: none;}
+#quem-somos-titulo,#vagas-emprego-titulo{color: #FFFFFF;font-family: Montserrat;font-size: 26px;font-weight: 700;line-height: 33px;}
+tr{border: none;}
+#quem-somos-txt{color: #5771FA;font-family: Montserrat;font-size: 20px;font-weight: 400;line-height: 26px;text-align: center;}
+#card-quem-somos{background-color: rgba(36, 0, 255, 0.9);border: none;}
+.card-title{color: #FFFFFF;font-family: Montserrat;font-size: 26px;font-weight: 700;line-height: 33px;text-align: center;}
+#img-cards{height: 130px;width: 130px;text-align: center;}
+#texto-card{color: #FFFFFF;font-family: Montserrat;font-size: 20px;font-weight: 400;line-height: 26px;text-align: center;}
+#parceiros-tit{color: #5771FA;font-family: Montserrat;font-size: 35px;font-weight: 700;line-height: 45px;text-align: center;}
+#nome-parceiro{color: #5771FA;font-family: Montserrat;font-size: 25px;font-weight: 700;line-height: 32px;text-align: center;}
+#img-mariana{width: 130px;height: 130px;}
+#img-y{width: 180px;height: 162px;}
+#section-td{background-color: #fff}
+
+
+#img-candidato{height: 151px;width: 164px;}
+#img-empresa{height: 156px;width: 146px;}
+#candidato-form{color: #FFFFFF;font-family: Montserrat;font-size: 26px;font-weight: 700;line-height: 33px;text-align: center;}
+#candidato-txt{color: #FFFFFF;font-family: Montserrat;font-size: 20px;font-weight: 400;line-height: 26px;text-align: center;}
+#img-candidato-form{height: 130px;width: 130px;text-align: center;}
+#card-form{background-color: #f58d00;}
+input.form-control{background-color: #f58d00; border: 1px solid #FFFFFF;border-radius: 5px;color: #FFFFFF;font-family: Lato;font-size: 18px;font-weight: 400;line-height: 62px;opacity: 0.5;text-align: left;}
+
+#textarea{background-color: #f58d00;border: 1px solid #FFFFFF;border-radius: 5px;color: #FFFFFF;font-family: Lato;font-size: 18px;font-weight: 400;line-height: 62px;opacity: 0.5;}
+#enviar-btn{color: #FFFFFF;font-family: Montserrat;font-size: 18px;font-weight: 400;text-align: center;  background-color: rgba(255, 255, 255, 0);border: 2px solid #FFFFFF;border-radius: 5px;width: 143.89px;height: 37px;}
+#pagina{color: #5771FA;font-family: Montserrat;font-size: 20px;font-weight: 400;line-height: 26px;}
+#empregos{background-color: rgba(36, 0, 255, 0.9);border: none;}
+#card-vagas{background-color: rgba(132, 146, 166, 0.27);border-radius: 16px;}
+#titulo-vaga{color: #47525E;font-family: Montserrat;font-size: 20px;font-weight: 400;line-height: 26px;}
+#data-vaga{color: #969FAA;font-family: Montserrat;font-size: 14px;font-weight: 400;line-height: 18px;}
+#card-vaga{border: none;background-color: rgba(132, 146, 166, 0.27);}
+#txt-vaga{color: #5A6978;font-family: Montserrat;font-size: 14px;font-weight: 400;line-height: 18px;}
+
+ #img-candidato2{height: 144px;width: 144px;}
+ #img-empresa2{height: 153px;width: 163px;}
+ #tit-pq{color: #FFFFFF;font-family: Montserrat;font-size: 26px;font-weight: 700;line-height: 33px;}
+ #paragrafo-pq{color: #5771FA;font-family: Montserrat;font-size: 20px;font-weight: 400;line-height: 26px;text-align:}
+
+
+
+
+.imagem-principal{text-align: center;}
+.imagem-nota{width: 786px;height: 405px;}
+.titulo-nota span{color: #343F4B;font-family: Montserrat;font-size: 35px;line-height: 45px;text-align: left; font-weight: bold;}
+.data-nota span{ color: #969FAA;font-family: Montserrat;font-size: 16px;line-height: 20px;text-align: left;}
+.texto-nota span{color: #5A6978;font-family: Montserrat;font-size: 18px;line-height: 23px;text-align: left;}
+
+
+
+
+
+#tit-projetos{color: #FFFFFF;font-family: Montserrat;font-size: 26px;font-weight: 700;line-height: 33px;}
+#txt-projeto{ color: #5771FA;font-family: Montserrat;font-size: 18px;line-height: 26px;text-align: center;}
+#cont-amarelo{padding: 0px;}
+#section-projetos{border: none;background-color: rgba(252, 255, 15, 0.88);}
+#capacitacao{color: #5771FA;font-family: Montserrat;font-size: 26px;font-weight: 700;line-height: 33px;text-align: center;}
+#img-capacitacao{width: 144px;height: 144px}
+#img-insercao{width: 143px;height: 143px;}
+#img-doa{width: 120px;height: 120px;}
+.carrocel-projetos{padding-top: 62px;  border-radius: 16px; border: none;}
+#slide-todo{background-color: rgba(132, 146, 166, 0.27);border-radius: 16px;}
+#card-slide{border-radius: 16px; margin-top: 0px; margin-left: 24px; border: none;}
+#card-corpo{background-color: rgba(132, 146, 166, 0.27);margin-top: -46px;}
+.imagem-carrocel{float: left;margin-top: 61px;}
+#titu-slide{margin-top: 46px;color: #343F4B;font-family: Montserrat;font-size: 26px;font-weight: bold;line-height: 33px; text-align: center;}
+#paragrafo-slide{color: #5A6978;font-family: Montserrat;font-size: 20px;font-weight: bold;line-height: 26px;text-align: left;}
+
+
+
+#nossos-cursos-tit{color: #FFFFFF;font-family: Montserrat;font-size: 26px;font-weight: 700;line-height: 33px;}
+#img-port{height: 151px;width: 164px}
+#img-franc{height: 156px;width: 146px;}
+#card-form{background-color: rgba(19, 206, 102, 0.95);}
+#curso-tit{color: #FFFFFF;font-family: Montserrat;font-size: 26px;font-weight: 700;line-height: 33px;text-align: center;}
+#curso-desc{color: #FFFFFF;font-family: Montserrat;font-size: 20px;font-weight: 400;line-height: 26px;text-align: center;}
+#img-livro-curso{height: 130px;width: 130px;text-align: center;}
+#input-form-curso{background-color: rgba(19, 206, 102, 0.95); border: 1px solid #FFFFFF;border-radius: 5px;color: #FFFFFF;font-family: Lato;font-size: 18px;font-weight: 400;line-height: 62px;opacity: 0.5;text-align: left;}
+#pq-aprender{color: #FFFFFF;font-family: Montserrat;font-size: 26px;font-weight: 700;line-height: 33px;}
+#pq-aprender-txt{ color: #5771FA;font-family: Montserrat;font-size: 20px;line-height: 26px;margin: 47px;text-align: left;}
+
+
+#col-doac{text-align: center;}
+#span-doacao{color: #5771FA;font-family: Montserrat;font-size: 35px;line-height: 45px;text-align: center; font-weight: bold;}
+#collll{margin-top: 70px;}
+#span-tipo{color: #5771FA;font-family: Montserrat;font-size: 20px;line-height: 26px;text-align: left;}
+#botao-doamensal{color: #5771FA;font-family: Montserrat; font-size: 20px;line-height: 26px;text-align: left;background-color: #fff;border: 3px solid #5771FA;border-radius: 5px;width: 190px;height: 70px;}
+#botao-doaunic{color: #5771FA;font-family: Montserrat;font-size: 20px;line-height: 26px;text-align: left;background-color: #FFFFFF;border: 3px solid #5771FA;border-radius: 5px;width: 190px;height: 70px;}
+#botao30,#botao60,#botao100,#botao0{color: #5771FA;font-family: Montserrat;font-size: 35px;line-height: 45px;text-align: center;background-color: #FFFFFF;border: 3px solid #5771FA;border-radius: 5px;width: 230px;height: 115px;}
+#rs{font-family: Montserrat;font-size: 35px;line-height: 45px;text-align: left; font-weight: bold;}
+#vlor{font-family: Montserrat;font-size: 26px;line-height: 33px;text-align: left; text-decoration: underline; font-weight: bold;}
+#msg{ font-family: Montserrat;font-size: 12px;line-height: 15px; width: 206px;text-align: left;}
+.cont-doacoes{background-color: rgba(132, 146, 166, 0.27);border-radius: 16px;}
+#lista123{margin-top: 35px;text-align: center;}
+ul{list-style-type: none;}
+#list-1{color: #FFFFFF;font-family: Montserrat;font-size: 26px;line-height: 47px;text-align: center;background-color: #5771FA;border-radius: 100%;width: 50px;height: 50px;}
+#dados{color: #47525E;font-weight: bold;font-family: Montserrat;font-size: 20px;line-height: 48px;text-align: left;}
+.lista-2{color: #5771FA;font-family: Montserrat;font-size: 26px;line-height: 42px;text-align: center;background-color: rgba(255, 200, 44, 0);border: 3px solid #5771FA;border-radius: 100%;width: 50px;height: 50px;}
+#endereco{color: #47525E;font-weight: bold;font-family: Montserrat;font-size: 20px;line-height: 46px;text-align: left;}
+.lista-3{color: #5771FA;font-family: Montserrat;font-size: 26px;line-height: 42px;text-align: center;background-color: rgba(255, 200, 44, 0);border: 3px solid #5771FA;border-radius: 100%;width: 50px;height: 50px;}
+#list-pagamento{color: #47525E;font-weight: bold;font-family: Montserrat;font-size: 20px;line-height: 46px;text-align: left;}
+#linha123{border: 1px solid #FFFFFF;opacity: 0.5;}
+.span-nascimento{color: #FFFFFF;font-family: Montserrat;font-size: 16px;line-height: 20px;opacity: 0.5;}
+.input-nome{background-color: rgba(19, 206, 102, 0);border: 2px solid #FFFFFF;border-radius: 5px;height: 28px;}
+#contt-form{text-align: center;}
+.input-dia{background-color: rgba(255, 255, 255, 0);border: 2px solid #FFFFFF;border-radius: 5px;width: 80px;height: 28px;}
+.input-mes{background-color: rgba(255, 255, 255, 0);border: 2px solid #FFFFFF;border-radius: 5px;width: 110px;height: 28px;}
+.input-ano{background-color: rgba(255, 255, 255, 0);border: 2px solid #FFFFFF;border-radius: 5px;width: 110px;height: 28px;}
+#linha-formulario{text-align: center;}
+.span-celular{color: #FFFFFF;font-family: Montserrat;font-size: 16px;line-height: 20px;opacity: 0.5;}
+.input-email{background-color: rgba(19, 206, 102, 0);border: 2px solid #FFFFFF;border-radius: 5px;height: 28px;}
+.input-ddd{background-color: rgba(19, 206, 102, 0);border: 2px solid #FFFFFF;border-radius: 5px;width: 81px;height: 28px;}
+.input-numero{background-color: rgba(19, 206, 102, 0);border: 2px solid #FFFFFF;border-radius: 5px;width: 206px;height: 28px;}
+#formCheck-1{background-color: #FFFFFF;border: 2px solid #8492A6;border-radius: 100%;width: 16px;height: 16px;}
+#form-check-label{color: #FFFFFF;font-family: Montserrat;font-size: 16px;line-height: 23px;text-align: left;}
+#btn-prox{color: #FFFFFF;font-family: Lato;font-size: 18px;line-height: 28px;width: 171px;text-align: center;background-color: #5771FA;border-radius: 5px;width: 171px;height: 44px;}
+
+
+#lista-2{color: #FFFFFF;font-family: Montserrat;font-size: 26px;line-height: 47px;text-align: center;background-color: #5771FA;border-radius: 100%;width: 50px;height: 50px;}
+#list-{color: #5771FA;font-family: Montserrat;font-size: 26px;line-height: 42px;text-align: center;background-color: rgba(255, 200, 44, 0);border: 3px solid #5771FA;border-radius: 100%;width: 50px;height: 50px;}
+.input-cep{  background-color: rgba(19, 206, 102, 0);border: 2px solid #FFFFFF;border-radius: 5px;width: 437px; height: 28px;}
+.input-endereco{background-color: rgba(19, 206, 102, 0);border: 2px solid #FFFFFF;border-radius: 5px;width: 437px;height: 28px;}
+#linha-formulario{text-align: center;}
+.input-numerocasa{  background-color: rgba(19, 206, 102, 0);border: 2px solid #FFFFFF;border-radius: 5px;width: 203px;height: 28px;}
+.input-complemento{  background-color: rgba(19, 206, 102, 0);border: 2px solid #FFFFFF;border-radius: 5px;width: 206px;height: 28px;}
+.input-bairro{ background-color: rgba(19, 206, 102, 0);border: 2px solid #FFFFFF;border-radius: 5px;width: 437px;height: 28px;}
+.input-cidade{ background-color: rgba(19, 206, 102, 0);border: 2px solid #FFFFFF;border-radius: 5px;width: 437px; height: 28px;}
+.input-estado{background-color: rgba(19, 206, 102, 0);border: 2px solid #FFFFFF;border-radius: 5px;width: 437px;height: 28px;}
+#botao-proximo2{color: #FFFFFF;font-family: Lato;font-size: 18px;line-height: 28px;width: 171px;text-align: center;background-color: #5771FA;border-radius: 5px;width: 171px;height: 44px;}
+.lista-2{color: #5771FA;font-family: Montserrat;font-size: 26px;line-height: 42px;text-align: center;background-color: rgba(255, 200, 44, 0);border: 3px solid #5771FA;border-radius: 100%;width: 50px;height: 50px;}
+#lista-3{color: #FFFFFF;font-family: Montserrat;font-size: 26px;line-height: 47px;text-align: center;background-color: #5771FA;border-radius: 100%;width: 50px;height: 50px;}   
+#lista-master{  background-color: rgba(19, 206, 102, 0);border: 2px solid #FFFFFF;border-radius: 5px;width: 65px;height: 48px;}
+#img-master{width: 50px; height: 50px;}
+#visa{ background-color: rgba(19, 206, 102, 0);border: 2px solid #FFFFFF;border-radius: 5px;width: 65px;height: 48px;}
+#img-visa{width: 35px; height: 35px;margin-top: 5px;}
+#americana{  background-color: rgba(19, 206, 102, 0);border: 2px solid #FFFFFF;border-radius: 5px;width: 65px;height: 48px;}
+#img-americana{width: 35px; height: 35px;margin-top: 5px;}
+#o{  background-color: rgba(19, 206, 102, 0);border: 2px solid #FFFFFF;border-radius: 5px;width: 65px;height: 48px;}
+#img-o{width: 35px; height: 35px;margin-top: 5px;}
+.span-validade{color: #FFFFFF;font-family: Montserrat;font-size: 16px;line-height: 20px;opacity: 0.5;}
+.input-ncartao{  background-color: rgba(19, 206, 102, 0);border: 2px solid #FFFFFF;border-radius: 5px;width: 437px; height: 28px;}
+.input-cvv{   background-color: rgba(19, 206, 102, 0);border: 2px solid #FFFFFF;border-radius: 5px;width: 134px; height: 28px;}
+.input-mescartao{  background-color: rgba(255, 255, 255, 0);border: 2px solid #FFFFFF;border-radius: 5px;width: 110px;height: 28px;}
+#input-anocartao{  background-color: rgba(255, 255, 255, 0);border: 2px solid #FFFFFF;border-radius: 5px;width: 58px;height: 28px;}
+#linha-formulario{text-align: center;}
+.span-cpf{color: #FFFFFF;font-family: Montserrat;font-size: 16px;line-height: 20px;opacity: 0.5;}
+.input-titular{  background-color: rgba(19, 206, 102, 0); border: 2px solid #FFFFFF; border-radius: 5px; width: 437px; height: 28px;}
+.input-cpf{ background-color: rgba(19, 206, 102, 0);border: 2px solid #FFFFFF;border-radius: 5px;width: 382px;height: 28px;}
+#btn-fazerdoa{color: #FFFFFF;font-family: Lato;font-size: 18px;line-height: 28px;width: 171px;text-align: center;background-color: #5771FA;border-radius: 5px;width: 171px;height: 44px;}
+#img-seguro{ opacity: 0.6;width: 24px;height: 24px;}
+#span-seguro{  color: #FFFFFF;font-family: Montserrat;font-size: 12px; line-height: 15px; opacity: 0.8; text-align: left;}
+        .cont-doacoes-sucesso{background-color: rgba(132, 146, 166, 0.27);border-radius: 16px;}
+.lista-sucesso{list-style-type: none; margin-top: 25px;}
+#img-sucesso{width: 49px;height: 64px;}
+#span-sucesso{ color: #77D353;font-family: Montserrat;font-size: 26px;text-align: left;}
+#botao-doaca{background-color: #5672fa; color:#fff;}
+html, body {height: 100%;width: 100%;}.sp-loading {
+  text-align: center;  max-width: 270px;  padding: 15px;  border: 5px solid #eee;  border-radius: 3px;  font-size: 12px;  color: #888;}a { color: #fff !important; text-decoration: none; }
+.sp-wrap {display: none;line-height: 0;font-size: 0;background: #eee;border: 5px solid #eee;border-radius: 3px;position: relative;
+  margin: 0 25px 15px 0;
+  float: left;
+  max-width: 300px;
+}
+
+.sp-thumbs {
+  text-align: left;
+  display: inline-block;
+}
+
+.sp-thumbs img {
+  min-height: 50px;
+  min-width: 50px;
+  max-width: 50px;
+}
+
+.sp-thumbs a:link, .sp-thumbs a:visited {
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  opacity: .3;
+  display: inline-block;
+  background-size: cover;
+  background-position: center;
+  -webkit-transition: all .2s ease-out;
+  -moz-transition: all .2s ease-out;
+  -ms-transition: all .2s ease-out;
+  -o-transition: all .2s ease-out;
+  transition: all .2s ease-out;
+}
+
+.sp-thumbs a:hover {
+  opacity: 1;
+}
+
+.sp-thumbs a:active, .sp-current {
+  opacity: 1!important;
+  position: relative;
+}
+
+.sp-large {
+  position: relative;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+
+.sp-large a img {
+  max-width: 100%;
+  height: auto;
+}
+
+.sp-large a {
+  display: block;
+}
+
+.sp-zoom {
+  position: absolute;
+  left: -50%;
+  top: -50%;
+  cursor: -webkit-zoom-in;
+  cursor: -moz-zoom-in;
+  cursor: zoom-in;
+  display: none;
+}
+
+.sp-lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, .9);
+  z-index: 1031;
+  display: none;
+  cursor: pointer;
+}
+
+.sp-lightbox img {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  max-width: 90%;
+  max-height: 90%;
+  border: 2px solid #fff;
+}
+
+#sp-prev, #sp-next {
+  position: absolute;
+  top: 50%;
+  margin-top: -25px;
+  z-index: 501;
+  color: #fff;
+  padding: 14px;
+  text-decoration: none;
+  background: #000;
+  border-radius: 25px;
+  border: 2px solid #fff;
+  width: 50px;
+  height: 50px;
+  box-sizing: border-box;
+  transition: .2s;
+}
+
+#sp-prev {
+  left: 10px;
+}
+
+#sp-prev:before {
+  content: '';
+  border: 7px solid transparent;
+  border-right: 15px solid #fff;
+  position: absolute;
+  top: 16px;
+  left: 7px;
+}
+
+#sp-next {
+  right: 10px;
+}
+
+#sp-next:before {
+  content: '';
+  border: 7px solid transparent;
+  border-left: 15px solid white;
+  position: absolute;
+  top: 16px;
+  left: 18px;
+}
+
+#sp-prev:hover, #sp-next:hover {
+  background: #444;
+}
+@media screen and (max-width: 400px) {
+  .sp-wrap {
+    margin: 0 0 15px 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #sp-prev, #sp-next {
+    top: auto;
+    margin-top: 0;
+    bottom: 25px;
+  }
+}
+
+.logo-byenvini {
+  width: 133px;
+  height: 49.88px;
+}
+
+.logo-maos {
+  width: 129px;
+  height: 67.19px;
+}
+
+dl, ol, ul {
+}
+
+.btn:not(:disabled):not(.disabled) {
+}
+
+.btn:not(:disabled):not(.disabled) {
+  background-color: rgba(19, 206, 102, 0);
+  border: 3px solid #5771FA;
+width: 171px;
+    height: 51px;;
+    margin-top: -8px;
+   
+}
+
+
+
+li.css a {
+      border-radius: 0;
+}
+
+.flex-viewport {
+  max-height: 450px;
+  max-width: 800px;
+  height: 368px;
+}
+
+
+
+
+.flex-control-nav {
+  bottom: 5px;
+}
+
+.flex-control-paging li a {
+  width: 8px;
+  height: 8px;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.flex-control-paging li a:hover {
+  background: #4183D7;
+}
+
+.flex-control-paging li a.flex-active {
+  background: #4183D7;
+}
+
+.flex-control-nav {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.flexslider .slides > li {
+  position: relative;
+}
+
+
+
+
+.flex-direction-nav a:before {
+  font-family: "FontAwesome";
+  font-size: 38px;
+  display: inline-block;
+  content: '\f104';
+  color: #fff;
+}
+
+.flex-direction-nav a.flex-next:before {
+  content: '\f105';
+  color: #333;
+}
+
+a:hover .flexslider {
+  box-shadow: 0 10px 50px rgba(0,0,0,.6);
+}
+
+@media (max-width:992px){
+ul.vertical-nav-list{
+      margin-left: 200px;
+}
+
+}
+
+
+@media (max-width:1200px){
+.nav-todo .navbar{
+        background-color: #fff;
+    text-align: center;
+  }
+  .botao-doacoes{
+margin-top: 31px;
+ margin-right: -57px;
+  }
+  .input-pesquisar{
+    margin-right: -22px !important;
+  }
+ul.vertical-nav-list{
+      margin-left: -17px;
+  }
+    #navbar{
+    margin-right: -20px;
+  }
+  .imagem-carrocel{
+    height: 276px;
+    width: 407px;
+  }
+  .todo{
+    margin-top: 41px;
+  }
+  #botao-doamensal{
+    margin-top: 15px;
+  }
+   #botao-doaunic{
+    margin-top: 15px;
+  }
+  .botoes-precos{
+        margin-top: 40px;
+  }
+  .lista-doacoes ul{
+    display: inline-flex;
+  }
+  .span-nascimento{
+    margin-left: 400px;
+  }
+  .botao-proximo{
+        margin-left: 727px;
+  }
+  #form-check-label{
+    margin-left: 23px;
+  }
+
+}
+
+@media screen and (max-width: 990px){
+
+.nav-todo .navbar{
+        background-color: #fff;
+    height: 220px;
+    text-align: center;
+  }
+  .botao-doacoes{
+   margin-top: 12px;
+    margin-right: -57px;
+}
+  
+  .navbar{
+    height: 63px;
+  }
+ a.nav-link{
+    height: 63px  !important;
+  }
+  .botao-proximo{
+        margin-left: 506px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .nav-todo .navbar{
+        background-color: #fff;
+    height: 220px;
+    text-align: center;
+  }
+  .botao-doacoes{
+     margin-top: 25px;
+    margin-right: -41px;
+  }
+  .navbar{
+    height: 63px;
+  }
+ a.nav-link{
+    height: 63px  !important;
+    background-color: #5771fa;
+  }
+  }
+
+@media screen and (max-width: 570px){
+
+.vertical-nav{
+  margin-top: -30px;
+}
+.nav-todo{
+ text-align: center;
+}
+}
+@media screen and (max-width: 400px){
+  .vertical-nav{
+     margin-top: 26px !important;
+    margin-left: -70px !important;
+}
+#navbar{
+  margin-top: 10px !important;
+}
+
+}
+
+@media screen and (max-width: 352px){
+  #navbar{
+  margin-top: 35px !important;
+}
+.navbar li{
+  margin-left: -14px;
+}
+
+}
+@media screen and (min-width: 400px){
+   .botao-doacoes{
+      margin-top: 7px;
+    margin-right: -20px;
+  }
+  #navbar{
+    margin-left: -20px;
+  }
+  .logo-byenvini {
+    width: 111px;
+    height: 40.88px;
+}
+.logo-maos {
+    width: 118px;
+    height: 58.19px;}
+
+  .input-pesquisar{
+    margin-right: 17px !important;
+    }
+  }
+  
+
+/* gambiarras de responsividade*/
+@media screen and (max-width: 400px){
+#botaonavegacao{
+  margin-top: 0px !important;
+}}
+
+@media screen and (max-width: 400px) {
+
+  .lista-doacoes ul{
+    display: inline-block;
+  }
+  .cont-doacoes, .cont-doacoe-sucesso{
+    height: 684px;
+    margin: -35px;
+  }
+  .botao-proximo{
+    margin-left: 145px;
+    margin-top: 35px;
+  }
+  .input-nome{
+    width: 266px;
+  }
+  .input-email{
+    width: 270px;
+  }
+  .todo{
+    margin-top: 140px;
+  }
+  .botao-doacao-m {
+        margin-top: 30px !important;
+        text-align: center;
+        cursor: pointer;
+  }
+   .botoes-precos{
+        margin-top: 40px;
+        text-align: center;
+  }
+  .nav-todo .navbar{
+        background-color: #fff;
+    height: 220px;
+    text-align: center;
+  }
+  .input-pesquisar{
+        margin-top: -57px;
+  }
+  .botao-doacoes{
+    margin-top: 20px;
+  }
+  #card-vagas{
+    margin: -20px;
+    }#cardvagas{
+    margin: -20px;margin-top: 51px;
+  }#card-form{
+    margin: -20px;
+    }.vertical-nav{
+      margin-top: 85px;
+      }#navbar{
+        margin: -20px;
+      }
+    .footer-todo{
+      margin: -20px;
+    }
+    .footer-todox{
+      margin: 0px;
+    }
+    .block-heading{
+      margin: -20px;
+    }
+    #section-projetos{
+            margin: -20px;
+        margin-top: -157px;
+  }
+  .carrocel-projetos{
+    margin: -20px;
+  }
+  .imagem-carrocel{
+        width: 285.22px;
+    height: 190px;
+  }
+  #card-quem-somos{
+    margin: -20px;
+  }
+  #form-check-label{
+    margin-left: 20px;
+  }
+  
+}
+@media screen and (min-width: 560px){
+  .navbar{
+    margin-left: -15px;
+  }
+}
+
+
+
+@media (min-width:1200px){
+
+    .botao-doacao-m {
+        margin-top: 25px;
+        cursor: pointer;
+  }
+  .botoes-precos{
+        margin-top: 90px;
+  }
+  .lista-doacoes ul{
+    display: inline-flex;
+  }
+  .cont-doacoes, .cont-doacoe-sucesso{
+    height: 456px;
+  }
+  .cont-doacoes-sucesso{
+    height: 113px;
+  }
+  .lista-sucesso{
+    display: inline-flex;
+  }
+  .botao-proximo{
+    margin-left: 900px;
+    margin-top: 114px;
+  }
+  .input-nome {
+    width: 437px;
+  }
+  .input-dia{
+    width: 80px;
+    margin-left: 23px;
+  }
+   .input-mes{
+    width: 110px;
+    margin-left: 13px;
+  }
+   .input-ano{
+    width: 80px;
+    margin-left: 13px;
+  }
+  .input-email{
+    width: 437px;
+    margin-left: -2px;
+          }
+  .input-ddd{
+    width: 81px;
+   margin-left: 30px;
+  }
+  .input-numero{
+    width: 206px;
+    margin-left: 37px;
+  }
+  .input-pesquisar{
+    margin-left: -166px;
+  }
+  .botao-doacoes{
+    margin-top: -34px;
+    margin-left: 63px;
+  }
+  .span-nascimento{
+    margin-left: 632px;
+  }
+  .span-celular{
+    margin-left: 213px;
+  }
+  #linha-formulario{
+    margin-top: 22px;
+  }
+  #form-check{
+    margin-left: 140px;
+    margin-top: 14px;
+  }
+  #form-check-label{
+    margin-left: 18px;
+  }
+  .lista-3{
+    margin-left: 136px;
+  }
+  .lista-2{
+    margin-left: 187px;
+  }
+  #card-vagas{
+    margin: 47px;
+  }#cardvagas{
+    margin: 47px;
+
+  }
+  #section-projetos{
+    margin: -104px;
+  }
+  .carrocel-projetos{
+    margin-left: 49px;margin-right: 49px;
+  }
+  .imagem-carrocel{
+    width: 534.22px;
+    height: 322px;
+  }
+  .input-endereco{
+    margin-left: 25px;
+}
+  .input-complemento{
+    margin-left: 24px;
+  }
+  .input-bairro{
+        margin-left: 30px;
+  }
+  .input-estado{
+    margin-left: 29px;
+    margin-top: 22px;
+}
+  .input-cvv{
+    margin-left: 59px;
+  }
+  .input-mescartao{
+    margin-left: 33px;
+  }
+  .input-ncartao{
+    margin-left: -1px;
+  }
+  .input-cpf{
+    margin-left: 54px;
+  }
+  .visa{
+    margin-left: 10px;
+  }
+  .americana{
+    margin-left: 10px;
+  }
+  .o{
+    margin-left: 10px;
+  }
+  .lista-cartoes{
+        margin-left: -488px;
+         display: inline-flex;
+  }
+  .span-validade{
+    margin-left: 537px;
+  }
+  .span-cpf{
+    margin-left: 153px;
+  }
+  .lista-seguro{
+    display: inline-flex;
+    margin-left: 830px;
+  }
+  .botao-fazerdoacao{
+     margin-left: 900px;
+    margin-top: 90px;
+  }
+  .imagem-nota{
+    margin-top: 55px;
+  }
+  .titulo-nota{
+    margin-top: 50px;
+  }
+  .data-nota{
+    margin-top: -30px;
+  }
+  .texto-nota{
+   margin-top: 50px;
+  }
+}
+
+@media (min-width: 768px){
+  .botao-proximo{
+    margin-left: 506px;
+    margin-top: 32px;
+  }
+ 
+  #endereco{
+        margin-top: -43px;
+  }
+  #botao60{
+    margin-left: 52px;
+  }
+  #botao100{
+    margin-top: 121px;
+    margin-left: -360px;
+  }
+  #botao0{
+    margin-top: 121px;
+    margin-left: -308px;
+  }
+
+}
+
+@media (max-width: 576px ){
+  #botao60, #botao100, #botao0{
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  .lista-doacoes ul{
+    display: inline-grid;
+  }
+  .botao-proximo{
+    margin-left: 215px ;
+  }
+
+}
+
+
+@media screen and 
+(min-width: 401px) and 
+(max-width: 465px){
+.input-email { margin-left: 63px !important;}#coluna-dados2 {margin-left: -30px !important;}.input-ddd {width: 39px !important; margin-left: 64px !important;}.input-numero{margin-left: 35px !important;}.botao-proximo{margin-top: 41px !important;}.input-ano{width: 80px !important; margin-right: 9px !important;}
+}
+
+@media screen and 
+(min-width: 300px) and 
+(max-width: 360px){img.imagem-nota{margin-top: 55px;width: 300px !important;  height: 150px !important;  margin-left:-15px;}.titulo-nota {margin-top: 50px;}ul.lista-seguro{display: inline-flex !important;}input.input-cep,input.input-endereco,input.input-numerocasa,input.input-complemento,input.input-bairro,input.input-cidade,input.input-estado{width: 250px !important;}#card-quem-somos.card-group{margin-left: -20px; margin-right: -20px;}#cvv-mes-ano{margin-top: 25px;}#span-validade{margin-top: 50px;margin-left: 99px;}#nome-completo{margin-top: -60px;} #coluna-titular-input{margin-top: -58px;}#coluna-cpf.col{margin-top: 56px;}#coluna-cpf-input{margin-top: 20px;}input.input-cep,input.input-endereco,input.input-numerocasa,input.input-complemento,input.input-bairro,input.input-cidade, input.input-estado{width: 250px !important;margin-top: 10px;}.cont-doacoes-sucesso{margin-left: -58px;width: 316px !important; text-align: start;}#span-sucesso{line-height: 25px;}ul.lista-sucesso{display: inline-flex;}.botao-proximo{margin-left: 109px; margin-top: 45px;}input.input-cpf{margin-top: 10px; width: 306px !important;}input.input-cvv{width: 59px !important;margin-right: 70px; margin-top: 10px;}input.input-titular,input.input-ncartao{width: 306px !important;}.botao-fazerdoacao{margin-top: 19px;}ul.lista-seguro{display: inline-flex;}ul.lista-cartoes{display: inline-flex;margin-left: -26px;}.footer-todo{      margin-right: -20px;margin-left: -20px;}.cont-doacoes,.cont-doacoe-sucesso{ height: 841px !important;margin-left: -43px; margin-right: -39px;}.todo{ margin-left: 8px;}#span-tipo.col-md-12{margin-left: 27px;}#span-doacao{margin-left: 29px;}#botoes-tipo{ margin-left: 2px;}#navbar{margin-right: -19px;}ul.ul-nav{margin-left: 3px;}ul.ul-nav2{    margin-left: -42px;}.input-pesquisar{margin-left: 48px;}.botao-doacoes{margin-left: 79px;}.vertical-nav-list{margin-left: 273px !important;}a.nav-link{margin-top: -15px;margin-right: -23px;margin-left: -16px;}#list-1, .lista-2, .lista-3{margin-left: 64px;}#endereco{margin-left: 23px;}#list-pagamento{margin-left: -22px;}.input-nome{margin-left: 8px;}#coluna-dados{margin-left: 0px !important; }.input-dia{ margin-left: -9px; margin-top: 28px; }.input-numero{margin-right: -26px;margin-left: 10px;} .input-ano{margin-right: -6px; width: 90px !important;}.input-mes{ margin-right: -1px;  }.span-nascimento{ margin-left: 0px;}#coluna-dados.col{ margin-top: -55px;} #coluna-nascimento.col{margin-top: 44px;}#coluna-dados2{ margin-left: -5px; margin-top: -56px; }.input-email{ margin-left: 9px;}.input-ddd{ width: 50px !important;margin-left: -13px; margin-top: 29px;} #coluna-ddd{ margin-top: 100px;}#coluna-ini{margin-top: -5px;}.cont-doacoes,.cont-doacoe-sucesso { height: 785px; }}
+
+@media screen and 
+(min-width: 361px) and 
+(max-width: 400px){img.imagem-nota{margin-top: 55px;width: 300px !important;  height: 150px !important;  margin-left:5px;}.titulo-nota {margin-top: 50px;}ul.lista-seguro{display: inline-flex !important;}input.input-cep,input.input-endereco,input.input-numerocasa,input.input-complemento,input.input-bairro,input.input-cidade,input.input-estado{width: 300px !important;}#card-quem-somos.card-group{margin-left: -20px; margin-right: -20px;}#cvv-mes-ano{margin-top: 25px;}#span-validade{margin-top: 50px;margin-left: 99px;}#nome-completo{margin-top: -60px;} #coluna-titular-input{margin-top: -58px;}#coluna-cpf.col{margin-top: 56px;}#coluna-cpf-input{margin-top: 20px;}.cont-doacoes-sucesso{margin-left: -98px;width: 428px;}#span-sucesso{line-height: 25px;}ul.lista-sucesso{display: inline-flex;}.botao-fazerdoacao{margin-top: 34px;}input.input-cpf{margin-top: 10px;    width: 349px !important;}input.input-cvv{margin-right: 70px; margin-top: 10px;    width: 100px !important;}input.input-titular,input.input-ncartao{width: 349px !important;}.cont-doacoes{    height: 800px;}ul.lista-cartoes{display: inline-flex;}#botao-proximo2{margin-top: -44px;margin-left: 44px;}input.input-complemento{margin-left: 0px;}input.input-endereco,input.input-numerocasa,input.input-complemento,input.input-bairro,input.input-cidade,input.input-estado{margin-top: 10px;}.botao-proximo{margin-top: 55px !important; margin-left: 116px !important;}.footer-todo{      margin-right: -20px;margin-left: -20px;}.cont-doacoes,.cont-doacoe-sucesso{margin-left: -37px; margin-right: -39px;}.cont-doacoe-sucesso{height: 766px !important;}.todo{ margin-left: 8px;}#botoes-tipo{ margin-left: 8px;}#navbar{margin-right: -19px;}ul.ul-nav{margin-left: 1px;}ul.ul-nav2{    margin-left: -42px;}.input-pesquisar{margin-left: 87px;}.botao-doacoes{margin-left: 105px;}.vertical-nav-list{margin-left: 335px !important;}a.nav-link{margin-top: -15px;margin-right: -23px;margin-left: -23px;}#list-1, .lista-2, .lista-3{margin-left: 64px;}#endereco{margin-left: 23px;}#list-pagamento{margin-left: -22px;}.input-numero{margin-right: 2px;margin-left: 15px;}.input-nome{    width: 300px;margin-left: 15px;}#coluna-dados{margin-left: -0px !important; }.input-dia{ margin-left: 13px; margin-top: 28px; } .input-ano{margin-right: 2px;}.input-mes{ margin-right: -1px;  }.span-nascimento{ margin-left: 0px;}#coluna-dados.col{ margin-top: -55px;} #coluna-nascimento.col{margin-top: 44px;}#coluna-dados2{ margin-left: -13px; margin-top: -56px; }.input-email{width: 304px; margin-left: 23px;}.input-ddd{ margin-left: 9px; margin-top: 29px;} #coluna-ddd{ margin-top: 100px;}#coluna-ini{margin-top: -5px;}.cont-doacoe,.cont-doacoe-sucessos { height: 785px;}}
+
+@media screen and 
+(min-width: 401px) and 
+(max-width: 423px){img.imagem-nota{margin-top: 55px;width: 400px !important;  height: 250px !important;  margin-left:-32px;}.titulo-nota {margin-top: 50px;}ul.lista-seguro{display: inline-flex !important;}input.input-cep,input.input-endereco,input.input-numerocasa,input.input-complemento,input.input-bairro,input.input-cidade,input.input-estado{width: 361px !important;}#card-form.card-group{margin-left: -19px; margin-right: -20px;}#card-quem-somos.card-group{margin-left: -20px; margin-right: -20px;}#cvv-mes-ano{margin-top: 25px;}#span-validade{margin-top: 50px;margin-left: 99px;}#nome-completo{margin-top: -60px;} #coluna-titular-input{margin-top: -58px;}#coluna-cpf.col{margin-top: 56px;}#coluna-cpf-input{margin-top: 20px;}input.input-complemento{margin-left: 0px;}input.input-endereco,input.input-numerocasa,input.input-complemento,input.input-bairro,input.input-cidade,input.input-estado{margin-top: 10px;}.cont-doacoes-sucesso{margin-left: -83px;width: 429px;}#span-sucesso{line-height: 25px;}ul.lista-sucesso{display: inline-flex;}.botao-fazerdoacao{margin-top: 80px;}input.input-cpf{margin-top: 10px;}input.input-cvv{margin-right: 70px; margin-top: 10px;}input.input-titular,input.input-ncartao{width: 381px !important;}ul.lista-cartoes{display: inline-flex;} input.input-numero{margin-left: 21px;}.botao-proximo{margin-left: 182px; margin-top: 18px;}.input-pesquisar{ margin-left: 56px;}.botao-doacoes{ margin-left: 48px;}.footer-todo{ margin: 0px;}.footer-todo{      margin-right: -20px;margin-left: -20px;}.cont-doacoes,.cont-doacoe-sucesso{margin-left: -37px; margin-right: -38px;}.todo{ margin-left: 9px;}#botoes-tipo{ margin-left: 8px;}#navbar{margin-right: -19px;}ul.ul-nav{margin-left: 50px;}ul.ul-nav2{    margin-left: -28px;}.input-pesquisar{margin-left: 87px;}.botao-doacoes{margin-left: 105px;}.vertical-nav-list{margin-left: 323px !important;}a.nav-link{margin-top: -1px;margin-right: -16px;margin-left: -16px;}#list-1, .lista-2, .lista-3{margin-left: 64px;}#endereco{margin-left: 23px;}#list-pagamento{margin-left: -22px;}.input-nome{margin-left: 58px;width: 300px;}#coluna-dados{margin-left: -22px !important; }.input-dia{ margin-left: 71px; margin-top: 28px; } .input-ano{width: 84px !important;margin-right: 19px;}.input-mes{ margin-right: -1px;  }.span-nascimento{ margin-left: 0px;}#coluna-dados.col{ margin-top: -56px;} #coluna-nascimento.col{margin-top: 44px;}#coluna-dados2{ margin-left: -30px;margin-top: -56px; }.input-email{ margin-left: 63px;width: 290px;}.input-ddd{ width: 39px !important;margin-left: 76px; margin-top: 29px;} #coluna-ddd{ margin-top: 100px;}#coluna-ini{margin-top: -5px;}.cont-doacoes,.cont-doacoe-sucesso { height: 785px;}}
+
+@media screen and 
+(min-width: 300px) and 
+(max-width: 576px){.fundo-imgg{margin-top: -0px !important;}}
+
+@media screen and 
+(min-width: 424px) and 
+(max-width: 440px){img.imagem-nota{margin-top: 55px;width: 400px !important;  height: 250px !important;  margin-left:-18px;}.titulo-nota {margin-top: 50px;}ul.lista-seguro{display: inline-flex !important;}input.input-cep,input.input-endereco,input.input-numerocasa,input.input-complemento,input.input-bairro,input.input-cidade,input.input-estado{width: 361px !important;}#card-form.card-group{margin-left: -19px; margin-right: -20px;}#card-quem-somos.card-group{margin-left: -20px; margin-right: -20px;}#cvv-mes-ano{margin-top: 25px;}#span-validade{margin-top: 50px;margin-left: 99px;}#nome-completo{margin-top: -60px;} #coluna-titular-input{margin-top: -58px;}#coluna-cpf.col{margin-top: 56px;}#coluna-cpf-input{margin-top: 20px;}input.input-complemento{margin-left: 0px;}input.input-endereco,input.input-numerocasa,input.input-complemento,input.input-bairro,input.input-cidade,input.input-estado{margin-top: 10px;}.cont-doacoes-sucesso{margin-left: -98px;width: 465px;}#span-sucesso{line-height: 25px;}ul.lista-sucesso{display: inline-flex;}input.input-cpf{margin-top: 10px;}input.input-cvv{margin-right: 70px; margin-top: 10px;}input.input-titular,input.input-ncartao{width: 381px !important;}.botao-fazerdoacao{margin-top: 80px;}ul.lista-cartoes{display: inline-flex;} .botao-proximo{ margin-left: 206px; margin-top: 78px;}.input-pesquisar{ margin-left: 56px;}.botao-doacoes{ margin-left: 48px;}.footer-todo{ margin: 0px;}.footer-todo{      margin-right: -20px;margin-left: -20px;}.cont-doacoes,.cont-doacoe-sucesso{margin-left: -37px; margin-right: -39px;}.todo{ margin-left: 23px;}#botoes-tipo{ margin-left: 8px;}#navbar{margin-right: -19px;}ul.ul-nav{margin-right: 50px;}.input-pesquisar{margin-left: 87px;}.botao-doacoes{margin-left: 105px;}.vertical-nav-list{margin-left: 346px !important}a.nav-link{margin-top: -1px;margin-right: -26px;margin-left: -16px;}#list-1, .lista-2, .lista-3{margin-left: 64px;}#endereco{margin-left: 23px;}#list-pagamento{margin-left: -22px;}.input-nome{margin-left: 96px;width: 300px;}#coluna-dados{margin-left: -38px !important; }.input-dia{ margin-left: 109px; margin-top: 28px; } .input-ano{margin-right: 19px;}.input-mes{ margin-right: -1px;  }.span-nascimento{ margin-left: 0px;}#coluna-dados.col{ margin-top: -56px;} #coluna-nascimento.col{margin-top: 44px;}#coluna-dados2{ margin-left: -53px; margin-top: -56px; }.input-email{ margin-left: 116px;width: 290px;}.input-ddd{ margin-left: 113px; margin-top: 29px;} #coluna-ddd{ margin-top: 100px;}#coluna-ini{margin-top: -5px;}.cont-doacoes,.cont-doacoe-sucesso { height: 785px;}}
+
+@media screen and 
+(min-width: 440px) and 
+(max-width: 500px){img.imagem-nota{margin-top: 55px;width: 400px !important;  height: 250px !important;  margin-left:-7px;}.titulo-nota {margin-top: 50px;}ul.lista-seguro{display: inline-flex !important;}input.input-cep,input.input-endereco,input.input-numerocasa,input.input-complemento,input.input-bairro,input.input-cidade,input.input-estado{width: 361px !important;}.imagem-carrocel{margin-left: -38px;}#card-form.card-group{margin-left: -19px; margin-right: -20px;}#cvv-mes-ano{margin-top: 25px;}#span-validade{margin-top: 50px;margin-left: 171px;}#nome-completo{margin-top: -60px;} #coluna-titular-input{margin-top: -58px;}#coluna-cpf.col{margin-top: 56px;}#coluna-cpf-input{margin-top: 20px;}.cont-doacoes-sucesso{margin-left: -108px;width: 517px;}#span-sucesso{line-height: 25px;}ul.lista-sucesso{display: inline-flex;}input.input-cpf{margin-top: 10px;}input.input-cvv{margin-right: 85px; margin-top: 10px;width: 89px !important;}input.input-titular,input.input-ncartao,input.input-cpf{width: 349px !important;}.botao-fazerdoacao{margin-top: 80px;}ul.lista-cartoes{display: inline-flex;}input.input-complemento{margin-left: 0px;}input.input-endereco,input.input-numerocasa,input.input-complemento,input.input-bairro,input.input-cidade,input.input-estado{margin-top: 10px;}.cont-doacoe-sucesso{margin-left: -40px;margin-right: -36px;}.nav-todo{  margin-left: 46px;} .botao-proximo{ margin-left: 233px; margin-top: 78px;}.input-pesquisar{ margin-left: 56px;}#card-quem-somos.card-group{margin-left: -20px; margin-right: -20px;}.botao-doacoes{ margin-left: 48px;}.footer-todo{ margin: 0px;}ul.ul-nav{margin-left: 33px;}ul.ul-nav2{    margin-left: -39px;}.footer-todo{      margin-right: -20px;margin-left: -20px;}.cont-doacoes,.cont-doacoe-sucessos{margin-left: -37px; margin-right: -31px;;}.todo{ margin-left: 14px;}#botoes-tipo{ margin-left: 8px;}#navbar{margin-right: -19px;}ul.ul-nav{margin-right: 27px;}.input-pesquisar{margin-left: 87px;}.botao-doacoes{margin-left: 105px;}.vertical-nav-list{margin-left: 375px !important}a.nav-link{margin-top: -5px;margin-right: -26px;margin-left: -3px;}#list-1, .lista-2, .lista-3{margin-left: 64px;}#endereco{margin-left: 23px;}#list-pagamento{margin-left: -22px;}.input-nome{margin-left: 96px;width: 300px;}#coluna-dados{margin-left: -38px !important; }.input-dia{ margin-left: 108px; margin-top: 28px; } .input-ano{margin-right: 19px;}.input-mes{ margin-right: -1px;  }.span-nascimento{ margin-left: 0px;}#coluna-dados.col{ margin-top: -56px;} #coluna-nascimento.col{margin-top: 44px;}#coluna-dados2{ margin-left: -53px; margin-top: -56px; }.input-email{ margin-left: 116px;width: 290px;}.input-ddd{ margin-left: 113px; margin-top: 29px;} #coluna-ddd{ margin-top: 100px;}#coluna-ini{margin-top: -5px;}.cont-doacoes,.cont-doacoe-sucesso { height: 785px;}}
+
+@media screen and 
+(min-width: 501px) and 
+(max-width: 550px){img.imagem-nota{margin-top: 55px;width: 400px !important;  height: 250px !important;  margin-left:5px;}.titulo-nota {margin-top: 50px;}ul.lista-seguro{display: inline-flex !important;}.imagem-carrocel{width: 426px !important;}#card-form.card-group{margin-left: -19px; margin-right: -20px;}#cvv-mes-ano{margin-top: 25px;}#span-validade{margin-top: 50px;margin-left: 178px;}#nome-completo{margin-top: -60px;} #coluna-titular-input{margin-top: -58px;}#coluna-cpf.col{margin-top: 56px;}#coluna-cpf-input{margin-top: 20px;}input.input-complemento{margin-left: 25px;}input.input-endereco,input.input-input-numerocasa,input.input-complemento,input.input-bairro,input.input-cidade,input.input-estado{margin-top: 10px;}.cont-doacoes-sucesso{margin-left: -94px;width: 549px;}#span-sucesso{line-height: 25px;}ul.lista-sucesso{display: inline-flex;}input.input-cpf{margin-top: 10px;}input.input-cvv{margin-right: 160px; margin-top: 10px;}input.input-titular,input.input-ncartao,input.input-cpf{width: 470px !important;}.botao-fazerdoacao{margin-top: 80px;}ul.lista-cartoes{display: inline-flex;}.nav-todo{  margin-left: 46px;} .botao-proximo{ margin-left: 255px; margin-top: 78px;}.input-pesquisar{ margin-left: 56px;}.botao-doacoes{ margin-left: 48px;}#card-quem-somos.card-group{margin-left: -20px; margin-right: -20px;}.footer-todo{ margin: 0px;}ul.ul-nav{margin-left: 50px;}ul.ul-nav2{    margin-left: -28px;}.footer-todo{      margin-right: -20px;margin-left: -20px;}.cont-doacoes,.cont-doacoe-sucesso{margin-left: -37px;   margin-right: -33px;;}.todo{ margin-left: 6px;}#botoes-tipo{ margin-left: 8px;}#navbar{margin-right: -19px;}ul.ul-nav{margin-right: 70px;}.input-pesquisar{margin-left: 87px;}.botao-doacoes{margin-left: 105px;}.vertical-nav-list{margin-left: 416px !important;}a.nav-link{margin-top: -1px;margin-right: -16px;margin-left: -16px;}#list-1, .lista-2, .lista-3{margin-left: 64px;}#endereco{margin-left: 23px;}#list-pagamento{margin-left: -22px;}.input-nome{margin-left: 141px;width: 300px;}#coluna-dados{margin-left: -60px !important; }.input-dia{ margin-left: 147px; margin-top: 28px; } .input-ano{margin-right: 19px;}.input-mes{ margin-right: -1px;  }.span-nascimento{ margin-left: 0px;}#coluna-dados.col{ margin-top: -56px;} #coluna-nascimento.col{margin-top: 44px;}#coluna-dados2{ margin-left: -53px; margin-top: -56px; }.input-email{ margin-left: 125px;width: 290px;}.input-ddd{ margin-left: 128px; margin-top: 29px;} #coluna-ddd{ margin-top: 100px;}#coluna-ini{margin-top: -5px;}.cont-doacoes,.cont-doacoe-sucesso { height: 785px;}}
+@media screen and 
+(min-width: 551px) and 
+(max-width: 576px){img.imagem-nota{margin-top: 55px;width: 500px !important;  height: 300px !important;  margin-left:5px;}.titulo-nota {margin-top: 50px;}ul.lista-seguro{display: inline-flex !important;}.imagem-carrocel{width: 448px !important;}#card-form.card-group{margin-left: -19px; margin-right: -20px;}#cvv-mes-ano{margin-top: 25px;}#span-validade{margin-top: 50px;margin-left: 200px;}#nome-completo{margin-top: -60px;} #coluna-titular-input{margin-top: -58px;}#coluna-cpf.col{margin-top: 56px;}#coluna-cpf-input{margin-top: 20px;}input.input-complemento{margin-left: 25px;}input.input-endereco,input.input-input-numerocasa,input.input-complemento,input.input-bairro,input.input-cidade,input.input-estado{margin-top: 10px;}.cont-doacoes-sucesso{margin-left: -23px;width: 542px;}#span-sucesso{line-height: 25px;}ul.lista-sucesso{display: inline-flex;}input.input-cpf{margin-top: 10px;}input.input-cvv{margin-right: 160px; margin-top: 10px;}input.input-titular,input.input-ncartao,input.input-cpf{width: 470px !important;}.botao-fazerdoacao{margin-top: 80px;}ul.lista-cartoes{display: inline-flex;}.nav-todo{  margin-left: -5px;     margin-right: 70px;} .botao-proximo{ margin-left: 255px; margin-top: 78px;}.input-pesquisar{ margin-left: 56px;}.botao-doacoes{ margin-left: 48px;}.footer-todo{ margin: 0px;}.footer-todo{      margin-right: -20px;margin-left: -20px;}.cont-doacoes,.cont-doacoe-sucesso{margin-left: -37px; margin-right: -35px;}.todo{ margin-left: -15px;}#botoes-tipo{ margin-left: -13px;}#navbar{margin-right: -19px;}ul.ul-nav{margin-right: 70px;}.input-pesquisar{margin-left: 87px;}.botao-doacoes{margin-left: 105px;}.vertical-nav-list{margin-left: 471px !important;}a.nav-link{margin-top: -5px;margin-right: -16px;margin-left: -16px;}#list-1, .lista-2, .lista-3{margin-left: 64px;}#endereco{margin-left: 23px;}#list-pagamento{margin-left: -22px;}.input-nome{margin-left: 141px;width: 300px;}#coluna-dados{margin-left: -60px !important; }.input-dia{ margin-left: 169px; margin-top: 28px; } .input-ano{margin-right: 19px;}.input-mes{ margin-right: -1px;  }.span-nascimento{ margin-left: 0px;}#coluna-dados.col{ margin-top: -56px;} #coluna-nascimento.col{margin-top: 44px;}#coluna-dados2{ margin-left: -53px; margin-top: -56px; }.input-email{ margin-left: 125px;width: 290px;}.input-ddd{ margin-left: 128px; margin-top: 29px;} #coluna-ddd{ margin-top: 100px;}#coluna-ini{margin-top: -5px;}.cont-doacoes,.cont-doacoe-sucesso { height: 785px;}}
+@media screen and 
+(min-width: 577px) and 
+(max-width: 767px){img.imagem-nota{margin-top: 55px;width: 584px !important;    margin-left: -35px; height: 340px !important;}.titulo-nota {margin-top: 50px;}ul.lista-seguro{display: inline-flex !important;}.imagem-carrocel{width: 531px !important;}#section-projetos.row{margin-right: -37px;margin-left: -37px;}#card-form.card-group{margin-left: -19px; margin-right: -20px;}a.nav-link{    margin-left: -19px; margin-right: -19px; margin-top: -1px;}#card-quem-somos.card-group{margin-right: -20px;margin-left: -20px;}#cvv-mes-ano{margin-top: 25px;}#span-validade{margin-top: 50px;margin-left: 200px;}#nome-completo{margin-top: -60px;}#coluna-titular-input{margin-top: -58px;}#coluna-cpf.col{margin-top: 56px;}#coluna-cpf-input{margin-top: 20px;}input.input-nome{margin-right: 31px;}input.input-email{    margin-right: 35px;}input.input-ddd{    margin-right: 15px;}#form-check.form-check{    margin-left: -70px;}.cont-doacoes-sucesso{margin-left: -46px;width: 568px;}#span-sucesso{line-height: 25px;}ul.lista-sucesso{display: inline-flex;}input.input-cpf{margin-top: 10px;}input.input-cvv{margin-right: 160px; margin-top: 10px;}input.input-titular,input.input-ncartao,input.input-cpf{width: 470px !important;}.botao-fazerdoacao{margin-top: 80px;}ul.lista-cartoes{display: inline-flex;}input.input-complemento{margin-left: 24px;}.botao-proximo{margin-left: 335px;margin-top: 41px;}ul.vertical-nav-list{margin-left: 492px;}input.input-endereco,input.input-input-numerocasa,input.input-complemento,input.input-bairro,input.input-cidade,input.input-estado{margin-top: 10px;}.cont-doacoes,.cont-doacoe-sucesso{margin-right: -35px;margin-left: -40px;}.span-nascimento{margin-left: 106px;}.footer-todo{margin-left: -20px;margin-right: -20px;}li#endereco{margin-top: -40px;}.nav-link{margin-right: -33px;margin-left: -4px;}}
+@media screen and 
+(min-width: 768px) and 
+(max-width: 991px){img.imagem-nota{margin-top: 55px;width: 719px !important;}.titulo-nota {margin-top: 50px;}ul.lista-seguro{display: inline-flex !important;}#section-projetos.row{margin-right: -51px;margin-left: -34px;}#card-form.card-group{ margin-right: -20px;}ul.vertical-nav-list{margin-left: 691px !important;}#card-quem-somos.card-group{margin-right: -19px;}#cvv-mes-ano{margin-top: 25px;}#span-validade{margin-top: 50px;margin-left: 200px;}#nome-completo{margin-top: -60px;} #coluna-titular-input{margin-top: -58px;}#coluna-cpf.col{margin-top: 56px;}#coluna-cpf-input{margin-top: 20px;}input.input-nome{width:255px;margin-right: 55px;}select.input-dia{margin-right: 11px;}select.input-ano{    margin-left: 11px;}input.input-email{width:255px;margin-right: 55px;}input.input-ddd{margin-right: 36px;}select.input-ano{    margin-left: 11px;}#coluna-ddd.col{margin-top: 31px;}ul.lista-sucesso{display: inline-flex;}input.input-cpf{margin-top: 10px;}input.input-cvv{margin-right: 160px; margin-top: 10px;}input.input-titular,input.input-ncartao,input.input-cpf{width: 470px !important;}.botao-fazerdoacao{margin-top: 80px;}ul.lista-cartoes{display: inline-flex;}input.input-complemento{margin-left: 24px;}input.input-endereco,input.input-input-numerocasa,input.input-complemento,input.input-bairro,input.input-cidade,input.input-estado{margin-top: 10px;}.span-celular{margin-left: 41px;}.span-nascimento{    margin-left: 333px;}.ul-nav{margin-right: 417px;}.ul-nav2{margin-left: 310px;}.input-pesquisar{margin-left: -133px;margin-top: -75px;}.botao-doacoes{margin-top: -45px;margin-left: 238px;}#span-tipo{text-align: center;}#botoes-tipo{margin-left: 129px;}#botao-doaunic{margin-left: 52px;}#botao30, #botao60, #botao60,#botao100, #botao0, #rs, #vlor{width: 120px !important;font-size: 25px !important;}#botao0 span p{margin-top: 8px;margin-left: -39px;}span#rs{line-height: 99px !important;}.botoes-precos{margin-left: 74px;}#botao60{margin-left: -37px;}#botao100{margin-left: -76px;margin-top: -9px;}#botao0{margin-left: -118px;margin-top: -9px;}ul.lista-footer{display: inline-flex;}.footer-todo{margin-right: -20px;}}
+/*@media screen and 
+(min-width: 992px) and 
+(max-width: 1300px){ul.vertical-nav-list{margin-left: 938px !important;}#card-quem-somos.card-group{margin-right: -19px;}#nome-completo{    margin-left: -346px;}#cvv-mes-ano{margin-top: -28px;float: right;margin-right: 25px;}#coluna-titular-input{margin-left: -224px;}#coluna-cpf-input{float: right;margin-top: -28px;margin-right: 38px;}ul.lista-sucesso{display: inline-flex;}ul.lista-cartoes{margin-left: -584px;}span.span-cpf{margin-left: 182px;}input.input-titular{margin-left: 11px;margin-right: 104px;}input.input-cpf{margin-left: -46px;width: 357px !important; margin-right: 7px;}input.input-ncartao{margin-right: -9px;}select.input-mescartao{    margin-left: 15px;margin-right: 17px;}#linha-formulario.row{margin-left: -35px;margin-top: 22px;}span.span-validade{margin-left: 542px;}ul.lista-seguro{    margin-left: 633px;}.botao-fazerdoacao{margin-left: 723px;margin-top: 79px;}.cont-doacoes{height: 460px;}ul.lista-cartoes,ul.lista-seguro{display: inline-flex;} .botao-proximo{   margin-left: 723px;   margin-top: 18px; } #endereco{   margin-top: 0px; } ul.lista-footer{   display: inline-flex; }#botao0{margin-top: -8px !important; margin-left: -27px !important;}#botao100{margin-top: -8px !important;margin-left: -17px !important;} #botao60{  margin-left: -8px !important;} .footer-todo{margin-right: -20px;}}
+*/@media screen and 
+(min-width: 992px) and
+(max-width: 1135px){img.imagem-nota{margin-top: 55px;}.titulo-nota {margin-top: 50px;}.botao-proximo{margin-left: 730px;margin-top: 100px;}#botao60, #botao100, #botao0{    margin-left: 0px; margin-top: -9px;}.botoes-precos{    margin-top: 90px;}#coluna-titular-input{margin-left: -224px;}#coluna-cpf-input{float: right;margin-top: -28px;margin-right: 107px;}#nome-completo{    margin-left: -346px;}#cvv-mes-ano{margin-top: -28px;float: right;margin-right: 15px;}#section-projetos.row{margin-right: -53px;margin-left: -53px;}#card-form.card-group{ margin-right: -20px;}ul.vertical-nav-list{margin-left: 950px !important;}#card-quem-somos.card-group{margin-right: -19px;}input.input-numerocasa{margin-right: 0px !important;}input.input-complemento{    margin-left: 19px !important;}#endereco{margin-top: 0px!important;}input.input-bairro{margin-top: 15px;margin-right: -3px !important; width: 441px !important;}input.input-cidade{margin-top: 19px;}input.input-nome,input.input-email{width: 337px;margin-right: 70px;}select.input-mes{margin-right: 10px;margin-left: 10px;}input.input-numero{margin-left: 42px;}.span-nascimento {margin-left: 501px;}span.span-celular{    margin-left: 163px;}#form-check.form-check{margin-top: 25px;margin-left: 83px;}.botao-proximo{margin-top: 70px;}#coluna-dados2.col{margin-left: 11px;}ul.lista-sucesso{display: inline-flex;}.cont-doacoes-sucesso{margin-top: 41px;}ul.lista-cartoes{margin-left: -578px !important; display: inline-flex !important;}span.span-cpf{margin-left: 243px;}input.input-titular{margin-left: -5px;margin-right: 168px;}input.input-cpf{margin-left: -46px;width: 357px !important; margin-right: -75px !important;}input.input-ncartao{margin-right: 58px;}select.input-mescartao{    margin-left: 15px;margin-right: 17px;}.botao-fazerdoacao{margin-left: 723px;margin-top: 79px;}#linha-formulario.row{margin-left: -35px;margin-top: 22px;}span.span-validade{margin-left: 542px;}ul.lista-seguro{    margin-left: 633px;     display: inline-flex !important;} .input-pesquisar{    margin-right: 83px !important;}.botao-doacoes{margin-top: -45px !important;margin-left: 293px;} ul.lista-footer{display: inline-flex;} .footer-todo{margin-right: -20px;}}
+@media screen and 
+(min-width: 1136px) and
+(max-width: 1200px){img.imagem-nota{margin-top: 55px;}.titulo-nota {margin-top: 50px;}#section-projetos.row{margin-right: -137px;margin-left: -117px;}#card-form.card-group{ margin-right: -20px;}ul.vertical-nav-list{margin-left: 950px !important;}#coluna-titular-input{margin-left: -224px;}#coluna-cpf-input{float: right;margin-top: -28px;margin-right: 107px;}#nome-completo{    margin-left: -346px;}#cvv-mes-ano{margin-top: -28px;float: right;margin-right: 15px;}input.input-numerocasa{margin-right: 0px !important;}input.input-bairro{margin-right: -3px !important;}#linha-formulario.row{margin-left: -19px !important;}input.input-cidade{margin-top: 19px;}#coluna-dados2.col{margin-left: 11px;}ul.lista-sucesso{display: inline-flex;}.cont-doacoes-sucesso{margin-top: 41px;}ul.lista-cartoes{margin-left: -578px !important; display: inline-flex !important;}span.span-cpf{margin-left: 243px;}input.input-titular{margin-left: -5px;margin-right: 168px;}input.input-cpf{margin-left: -46px;width: 357px !important; margin-right: -75px !important;}input.input-ncartao{margin-right: 58px;}select.input-mescartao{    margin-left: 15px;margin-right: 17px;}.botao-fazerdoacao{margin-left: 723px;margin-top: 79px;}#linha-formulario.row{margin-left: -35px;margin-top: 22px;}span.span-validade{margin-left: 542px;}ul.lista-seguro{    margin-left: 633px;     display: inline-flex !important;}#card-quem-somos.card-group{margin-right: -19px;}input.input-numerocasa{margin-left: -43px !important;}input.input-bairro{margin-right: -61px !important; width: 441px !important;}input.input-cidade{margin-top: 19px;}#coluna-dados2.col{margin-left: 11px;}input.input-nome,input.input-email{width: 337px;margin-right: 70px;}select.input-mes{margin-right: 10px;margin-left: 10px;}input.input-complemento{    margin-left: 19px !important;}input.input-numero{margin-left: 42px;}.span-nascimento {margin-left: 501px;}span.span-celular{    margin-left: 163px;}#form-check.form-check{margin-top: 25px;margin-left: 83px;}#endereco{margin-top: 0px !important;}.botao-proximo{margin-top: 41px; margin-left: 715px !important;}ul.lista-sucesso{display: inline-flex;} .cont-doacoes-sucesso{margin-top: 41px;}.botoes-precos{    margin-top: 90px;}#botao60, #botao100, #botao0{margin-left: 0px;margin-top: -9px;}.input-pesquisar{    margin-right: 83px !important;}.botao-doacoes{margin-top: -45px !important;margin-left: 293px;} ul.lista-footer{display: inline-flex;} .footer-todo{margin-right: -20px;}}
+
+
+@media screen and 
+(min-width: 1201px) and 
+(max-width: 1400px){#section-projetos.row{margin-right: -37px;}#coluna-titular-input{margin-left: -224px;}#coluna-cpf-input{float: right;margin-top: -28px;margin-right: 107px;}#nome-completo{    margin-left: -346px;}#cvv-mes-ano{margin-top: -28px;float: right;margin-right: 100px;}input.input-numerocasa{margin-right: 0px !important;}input.input-bairro{margin-right: -3px !important;}#linha-formulario.row{margin-left: -19px !important;}input.input-cidade{margin-top: 19px;}#coluna-dados2.col{margin-left: 11px;}ul.lista-sucesso{display: inline-flex;}.cont-doacoes-sucesso{margin-top: 41px;}ul.lista-cartoes{margin-left: -584px;}span.span-cpf{margin-left: 243px;}input.input-titular{margin-left: -5px;margin-right: 168px;}input.input-cpf{margin-left: -46px;width: 357px !important; margin-right: 7px;}input.input-ncartao{margin-right: 58px;}select.input-mescartao{    margin-left: 15px;margin-right: 17px;}#linha-formulario.row{margin-left: -35px;margin-top: 22px;}span.span-validade{margin-left: 542px;}ul.lista-seguro{    margin-left: 633px;}.botao-fazerdoacao{margin-left: 723px;margin-top: 79px;}#endereco{margin-top: 0px;}#botao60, #botao100, #botao0{margin-left: 0px;margin-top: -9px;}.botao-proximo{margin-left: 899px;margin-top: 100px;}}
+
+
+
+@media screen and 
+(min-width: 1400px) and 
+(max-width: 1600px){#section-projetos.row{margin-right: -160px;margin-left: -160px;}#nome-completo{    margin-left: -346px;}#cvv-mes-ano{margin-top: -28px;float: right;margin-right: 100px;}#coluna-titular-input{margin-left: -224px;}#coluna-cpf-input{float: right;margin-top: -28px;margin-right: 107px;}input.input-numerocasa{margin-right: 0px !important;}input.input-bairro{margin-right: -3px !important;}#linha-formulario.row{margin-left: -19px !important;}input.input-cidade{margin-top: 19px;}.cont-doacoes-sucesso{margin-top: 59px;}ul.lista-sucesso{display: inline-flex;}ul.lista-cartoes{margin-left: -584px;}span.span-cpf{margin-left: 243px;}input.input-titular{margin-left: -5px;margin-right: 168px;}input.input-cpf{margin-left: -46px;width: 357px !important; margin-right: 7px;}input.input-ncartao{margin-right: 58px;}select.input-mescartao{    margin-left: 15px;margin-right: 17px;}#linha-formulario.row{margin-left: -35px;margin-top: 22px;}span.span-validade{margin-left: 542px;}ul.lista-seguro{    margin-left: 633px;}.botao-fazerdoacao{margin-left: 723px;margin-top: 79px;}#endereco{margin-top: 0px;}#botao60, #botao100, #botao0{margin-left: 0px;margin-top: -9px;}.botao-proximo{margin-left: 899px;margin-top: 100px;}}
+
+
+
+
+/* -------------------------------- PLACEHOLDERS---------------------*/
+
+  .input-nome::placeholder  {color: #FFFFFF; font-family: Montserrat; font-size: 16px; line-height: 20px; opacity: 0.5; text-align: left;} .input-email::placeholder  { color: #FFFFFF;font-family: Montserrat;font-size: 16px;line-height: 20px;opacity: 0.5;text-align: left;}.input-dia::placeholder  {color: #FFFFFF;font-family: Montserrat;font-size: 16px;line-height: 20px;opacity: 0.5;text-align: left;} .input-mes::placeholder  {color: #FFFFFF; font-family: Montserrat;font-size: 16px;line-height: 20px; opacity: 0.5; text-align: left;}.input-ano::placeholder  {color: #FFFFFF; font-family: Montserrat; font-size: 16px; line-height: 20px; opacity: 0.5;text-align: left;}.input-ddd::placeholder  {color: #FFFFFF;font-family: Montserrat;font-size: 16px;line-height: 20px;opacity: 0.5;text-align: left;}.input-numero::placeholder  {color: #FFFFFF;font-family: Montserrat;font-size: 16px;line-height: 20px;opacity: 0.5;text-align: left;}.input-cep::placeholder  {color: #FFFFFF;font-family: Montserrat;font-size: 16px;line-height: 20px;opacity: 0.5;text-align: left;}.input-endereco::placeholder  {color: #FFFFFF;font-family: Montserrat;font-size: 16px;line-height: 20px;opacity: 0.5;text-align: left;} .input-bairro::placeholder  {color: #FFFFFF;font-family: Montserrat;font-size: 16px; line-height: 20px; opacity: 0.5; text-align: left;}.input-complemento::placeholder  { color: #FFFFFF;font-family: Montserrat;font-size: 16px; line-height: 20px; opacity: 0.5; text-align: left;}.input-numerocasa::placeholder  { color: #FFFFFF;font-family: Montserrat;font-size: 16px;line-height: 20px;opacity: 0.5;text-align: left;}.input-cidade::placeholder  {color: #FFFFFF;font-family: Montserrat;font-size: 16px;line-height: 20px;opacity: 0.5;text-align: left;}.input-estado::placeholder  {color: #FFFFFF;font-family: Montserrat;font-size: 16px;line-height: 20px;opacity: 0.5;text-align: left;}.input-ncartao::placeholder  {color: #FFFFFF;font-family: Montserrat;font-size: 16px;line-height: 20px;opacity: 0.5;text-align: left;}.input-cvv::placeholder  {color: #FFFFFF;font-family: Montserrat;font-size: 16px;line-height: 20px;opacity: 0.5;text-align: left;}.input-cpf::placeholder  {color: #FFFFFF;font-family: Montserrat;font-size: 16px;line-height: 20px;opacity: 0.5;text-align: left;}.input-titular::placeholder  {color: #FFFFFF;font-family: Montserrat;font-size: 16px;line-height: 20px;opacity: 0.5;text-align: left;}
+
+/* --------------------opções do select------------------------------------- */
+select option{color: #FFFFFF;font-family: Lato;font-size: 16px;line-height: 62px;text-align: left;background-color: rgba(132, 146, 166, 0.27);}
+
+
